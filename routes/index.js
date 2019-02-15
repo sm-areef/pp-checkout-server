@@ -26,8 +26,8 @@ var CONFIG =  {
 		"CREATE_PAYMENT_URL":"https://api.sandbox.paypal.com/v1/payments/payment",
 		"EXECUTE_PAYMENT_URL":"https://api.sandbox.paypal.com/v1/payments/payment/{payment_id}/execute/",
 		"GET_PAYMENT_DETAILS":"https://api.sandbox.paypal.com/v1/payments/payment/{payment_id}",
-		"CANCEL_URL":"https://nativexo-cart.herokuapp.com/thankyou",
-		"RETURN_URL":"https://nativexo-cart.herokuapp.com/thankyou",
+		"CANCEL_URL":"https://nativexo-as.herokuapp.com/thankyou",
+		"RETURN_URL":"https://nativexo-as.herokuapp.com/thankyou",
 		"BN_CODE":"PP-DemoPortal-EC-JSV4-python-REST"
 	};
 
@@ -95,8 +95,8 @@ var PAYLOAD = {
   ],
   "note_to_payer": "Contact us for any questions on your order.",
   "redirect_urls": {
-    "return_url": "https://nativexo-cart.herokuapp.com/thankyou",
-    "cancel_url": "https://nativexo-cart.herokuapp.com/thankyou"
+    "return_url": "https://nativexo-as.herokuapp.com/thankyou",
+    "cancel_url": "https://nativexo-as.herokuapp.com/thankyou"
   }
 };
 
